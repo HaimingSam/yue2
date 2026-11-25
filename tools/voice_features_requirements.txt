@@ -1,0 +1,8 @@
+speechbrain==1.1.1
+torchaudio==2.10.0
+scipy==1.15.3
+hyperpyyaml==1.2.3
+joblib==1.6.0
+sentencepiece==0.2.2
+ruamel.yaml==0.19.1
+ruamel.yaml.clib==0.2.15
