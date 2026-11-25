@@ -1,0 +1,37 @@
+{
+  "id": "example_abab",
+  "style": "Mandarin pop mashup, alternate between singer A and singer B; follow the supplied score as a melodic guide.",
+  "seed": 831001,
+  "target_key": "A",
+  "target_meter": "4/4",
+  "target_bpm": 76,
+  "target_denominator": 32,
+  "sources": {
+    "A": {
+      "score": "transcription_4b2f_pianai/score.abc",
+      "lyrics": "../../datas/audio/pianai.json",
+      "timestamp_unit": "seconds",
+      "audio_offset_seconds": 0
+    },
+    "B": {
+      "score": "transcription_trace/score.abc",
+      "lyrics": "../../datas/audio/daoxiang.json",
+      "timestamp_unit": "seconds",
+      "audio_offset_seconds": 0
+    }
+  },
+  "recipe": [
+    {"source": "A", "section": "intro", "occurrence": 1, "instrumental": true},
+    {"source": "A", "section": "verse", "occurrence": 1},
+    {"source": "A", "section": "pre-chorus", "occurrence": 1},
+    {"source": "A", "section": "chorus", "occurrence": 1},
+    {"source": "B", "section": "verse", "occurrence": 1},
+    {"source": "B", "section": "chorus", "occurrence": 1},
+    {"source": "A", "section": "verse", "occurrence": 2},
+    {"source": "A", "section": "pre-chorus", "occurrence": 2},
+    {"source": "A", "section": "chorus", "occurrence": 2},
+    {"source": "B", "section": "verse", "occurrence": 2},
+    {"source": "B", "section": "chorus", "occurrence": 2},
+    {"source": "B", "section": "outro", "occurrence": 1, "instrumental": true}
+  ]
+}

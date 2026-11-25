@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "A": {
+      "score": "/path/to/song_a/score.abc",
+      "lyrics": "/path/to/song_a/lyrics.json"
+    },
+    "B": {
+      "score": "/path/to/song_b/score.abc",
+      "lyrics": "/path/to/song_b/lyrics.json"
+    }
+  }
+}
